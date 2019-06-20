@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aigou_basic_parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aigou_basic_parent/aigou_basic_util" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aigou_eureka_server_1000" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aigou_palt_parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aigou_palt_parent/aigou_palt_interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aigou_palt_parent/aigou_palt_service_2000" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aigou_zuul_gateway_3000" charset="UTF-8" />
+  </component>
+</project>

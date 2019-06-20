@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="aigou_basic_util" />
+        <module name="aigou_eureka_server_1000" />
+        <module name="aigou_palt_interface" />
+        <module name="aigou_palt_service" />
+        <module name="aigou_palt_service_2000" />
+        <module name="aigou_zuul_gateway_0000" />
+        <module name="aigou_zuul_gateway_3000" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="aigou_basic_parent" target="1.8" />
+      <module name="aigou_basic_util" target="1.8" />
+      <module name="aigou_eureka_server_1000" target="1.8" />
+      <module name="aigou_palt_interface" target="1.8" />
+      <module name="aigou_palt_parent" target="1.8" />
+      <module name="aigou_palt_service" target="1.8" />
+      <module name="aigou_palt_service_2000" target="1.8" />
+      <module name="aigou_parent" target="1.8" />
+      <module name="aigou_zuul_gateway_0000" target="1.8" />
+      <module name="aigou_zuul_gateway_3000" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

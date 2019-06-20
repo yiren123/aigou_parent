@@ -1,0 +1,16 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:1000/eureka/
+  instance:
+    prefer-ip-address: true  #使用ip注册到注册中心
+server:
+  port: 3000
+spring:
+  application:
+    name: AIGOU_ZUUL
+zuul:
+  routes:
+    aigou_plat: /login/** #以/login开头的所有路径都转发给login的controller进行处理,相当于controller上的requestMapping
+  ignored-services: "*" #忽略掉服务名访问方式 使用上面/user的方式来访问
+  prefix: /aigou  #添加 前缀访问
