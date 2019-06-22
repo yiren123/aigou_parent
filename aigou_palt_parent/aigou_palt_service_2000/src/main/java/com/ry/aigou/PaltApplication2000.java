@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
-@EnableEurekaClient
+//@EnableEurekaClient
 public class PaltApplication2000 {
     public static void main(String[] args) {
         SpringApplication.run(PaltApplication2000.class);
